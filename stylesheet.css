@@ -1,0 +1,99 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+.header {
+  color:#fff;
+  background-color:#26d0c9;
+  height:90px;
+  width: 1500px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  display:block;
+}
+.header-logo{
+  padding:20px 40px;
+  font-size:36px;
+  float:left;
+}
+.header-list{
+  float:left;
+}
+.header li{
+  float:left;
+  padding:33px 20px;
+}
+.main{
+  margin: 40px;
+}
+.copy_container{
+  padding: 30px 0px;
+}
+.copy_container  h1{
+  font-size: 150px;
+}
+.copy_container  p{
+  font-size: 65px;
+  font-weight: bold;
+}
+.copy_container  span{
+  font-size: 70px;
+  color: #ff0000;
+}
+.contents{
+  padding: 50px 0px;
+}
+.contents h3{
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #999999;
+}
+.lesson_content{
+  float: left;
+  padding-right: 15px;
+}
+.contact_space{
+  padding: 300px 0px;
+}
+.contact_space h3{
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #999999;
+}
+.contact_form p{
+  padding-top: 20px;
+}
+.contact_form input{
+  height: 50px;
+  width: 400px;
+}
+.contact_form textarea{
+  height: 50px;
+  width: 400px;
+}
+.footer{
+  padding: 20px;
+  background-color: #999999;
+  height: 90px;
+}
+.footer_list{
+  float: right;
+}
+.footer_logo{
+  float: left;
+}
